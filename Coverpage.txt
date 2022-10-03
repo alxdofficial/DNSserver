@@ -1,0 +1,38 @@
+                 University of British Columbia
+                 Department of Computer Science 
+                         CPSC 317
+                     Winter 2022, Term 1
+
+
+
+By typing my/our name(s) and student number(s) in the list below, I/we
+certify that the work in the attached assignment was performed ONLY BY
+ME/US except the parts that have been properly acknowledged in the
+assignment and below. In addition, we indicate that we are fully aware
+of the rules and consequences of plagiarism, as set forth by the
+Department of Computer Science and the University of British
+Columbia. Furthermore, we understand that making this code available
+for others to view, either now and or in the future is academic
+misconduct. Penalties for academic misconduct can, and have been
+applied retroactively and, in some instances, this has resulted in the
+revocation of one's degree.
+
+Adding the cover page is the last thing you are to do as part of the
+assignment submission process. If you make changes after submitting
+this file then you should make a minor change to the file, such as
+adding a comment in the Acknowledgement section and then resubmit the
+file. To submit the Coverpage one of you will add their information to
+this file and then commit and push the file from their account. The
+other will then update their by doing a pull and then add their
+information to this file and then commit and push this file.
+
+
+STUDENT  1
+Name :
+St. No:
+CWL Id :
+
+STUDENT  2
+Name :
+St. No:
+CWL Id :
