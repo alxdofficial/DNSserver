@@ -1,5 +1,6 @@
 package ca.ubc.cs317.dnslookup;
 
+import javax.xml.crypto.Data;
 import java.io.IOException;
 import java.net.*;
 import java.nio.ByteBuffer;
@@ -51,6 +52,16 @@ public class DNSQueryHandler {
     public static DNSServerResponse buildAndSendQuery(byte[] message, InetAddress server,
                                                       DNSNode node) throws IOException {
         // TODO (PART 1): Implement this
+        System.out.println("DNSServer response");
+        DatagramPacket sendPacket = new DatagramPacket(message, message.length, server, DEFAULT_DNS_PORT);
+        DatagramPacket receivePacket;
+        try (DatagramSocket socket = new DatagramSocket()) {
+            socket.send(sendPacket);
+            byte[] receive = new byte[1024];
+            receivePacket = new DatagramPacket(receive, receive.length);
+            socket.receive(receivePacket);
+        }
+        System.out.println("Received: " + receivePacket.getLength());
         return null;
     }
 
