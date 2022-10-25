@@ -1,6 +1,5 @@
 package ca.ubc.cs317.dnslookup;
 
-import javax.xml.crypto.Data;
 import java.io.IOException;
 import java.net.*;
 import java.nio.ByteBuffer;
